@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BPSum": {
+      "commandName": "Project",
+      "commandLineArgs": "../../../bp.sbc"
+    }
+  }
+}
