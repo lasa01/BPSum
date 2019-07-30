@@ -21,7 +21,7 @@ namespace BPSum
                 string arg = args[i];
                 switch (arg)
                 {
-                    case "-":
+                    case "-h":
                     case "--help":
                         Console.WriteLine(Help);
                         return;
@@ -153,9 +153,9 @@ Usage:
 Options:
   -h, --help                      Show this help
   -p, --path <game path>          Override the game install location
-  -m, --mod <mod path>            Load a single mod from the specified path
+  -m, --mod <mod path or id>      Load a single mod from the specified path or by id
   -w, --world <world file>        Load active mods from a world file (usually Sandbox.sbc)
-  -M, --modsPath <mods path>      Override the mods location to use when loading mods from a world
+  -M, --modsPath <mods path>      Override the mods location to use when loading mods from a world or by id
   -F, --dataFolder <data path>    Load all .sbc data files from the specified path
   -f, --dataFile <data file>      Load a single .sbc data file
 ";
